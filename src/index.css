@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /*
+     * ========================================
+     * THEME COLOR PALETTE — Edit these to change the entire theme
+     * ========================================
+     * --theme-primary:   Main brand color (purple)
+     * --theme-secondary: Accent color (cyan/blue)
+     * --theme-neutral:   Muted gray
+     * --theme-bg:        Page background
+     * --theme-fg:        Main text color
+     */
+    --theme-primary: 220 70% 16%;       /* #0b1e3d — deep midnight */
+    --theme-secondary: 187 72% 45%;     /* #20a4b2 — cool cyan */
+    --theme-neutral: 218 15% 55%;       /* #7a8699 — steel gray */
+    --theme-bg: 220 20% 97%;            /* #f5f7fa */
+    --theme-fg: 220 40% 10%;            /* #0f1726 */
+
+    /* ---- Mapped design tokens (derived from theme palette) ---- */
+    --background: var(--theme-bg);
+    --foreground: var(--theme-fg);
+
+    --card: 0 0% 100%;
+    --card-foreground: var(--theme-fg);
+
+    --popover: 0 0% 100%;
+    --popover-foreground: var(--theme-fg);
+
+    --primary: var(--theme-primary);
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: var(--theme-secondary);
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: var(--theme-neutral);
+    --muted-foreground: 0 0% 40%;
+
+    --accent: var(--theme-secondary);
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --ring: var(--theme-primary);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Custom tokens */
+    --surface: 0 0% 100%;
+    --surface-elevated: 0 0% 100%;
+    --gradient-primary: linear-gradient(135deg, hsl(var(--theme-primary)), hsl(var(--theme-secondary)));
+    --gradient-hero: linear-gradient(135deg, hsl(220, 70%, 10%) 0%, hsl(var(--theme-primary)) 40%, hsl(220, 50%, 25%) 100%);
+    --shadow-card: 0 4px 24px -4px hsl(var(--theme-primary) / 0.08);
+    --shadow-elevated: 0 12px 40px -8px hsl(var(--theme-primary) / 0.15);
+  }
+
+  .dark {
+    --background: 213 32% 6%;
+    --foreground: 210 20% 98%;
+    --card: 213 32% 10%;
+    --card-foreground: 210 20% 98%;
+    --popover: 213 32% 10%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 211 52% 34%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 24 94% 53%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 215 14% 20%;
+    --muted-foreground: 215 14% 64%;
+    --accent: 24 94% 53%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 14% 20%;
+    --input: 215 14% 20%;
+    --ring: 211 52% 34%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+}
