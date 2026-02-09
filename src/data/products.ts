@@ -21,7 +21,7 @@ export const products: Product[] = [
     img: productScanner,
     title: "3D Foot Scanner",
     category: "Scanning",
-    desc: "High-precision 3D plantar and dorsal foot scanner with sub-millimeter accuracy. Captures complete foot geometry in seconds for custom orthotic design.",
+    desc: "At Unityware Solutions, we specialize in transforming complex medical and biometric concepts into high-precision hardware and software solutions. The 3D Foot Scanner is a testament to our expertise in laser triangulation, optical systems, embedded electronics, and intelligent software integration.",
     specs: ["Accuracy: ±0.3mm", "Scan Time: 5 seconds", "Output: STL, OBJ, PLY"],
     features: [
       "Sub-millimeter scanning precision for clinical-grade results",
@@ -39,7 +39,7 @@ export const products: Product[] = [
     img: productPrinter,
     title: "Insole 3D Printer",
     category: "Manufacturing",
-    desc: "Medical-grade 3D printer designed specifically for producing custom orthopedic insoles. Compatible with TPU, EVA, and specialized medical polymers.",
+    desc: "At Unityware Solutions, we specialize in developing cutting-edge manufacturing solutions for the medical industry. Unityware Solutions engineered a high-speed, low-maintenance 3D printer specifically for T-Soles in Netherlands, tailored to streamline custom orthotic insole production. The solution combines automation, precision, and cost-effectiveness—and is now being brought to market by T-Soles.",
     specs: ["Build Volume: 350×200×100mm", "Layer Resolution: 0.1mm", "Materials: TPU, EVA, Nylon"],
     features: [
       "Optimized for medical-grade insole production",
@@ -53,11 +53,11 @@ export const products: Product[] = [
       "Our Insole 3D Printer transforms digital foot scans into custom orthopedic insoles with medical-grade precision. Designed exclusively for the orthotics industry, it supports a range of flexible and semi-rigid materials including TPU, EVA, and specialized nylon blends. The generous build volume allows production of multiple insoles in a single print run, dramatically reducing turnaround time. With automated calibration, built-in material conditioning, and network connectivity, it integrates seamlessly into modern clinical workflows.",
   },
   {
-    slug: "foot-pressure-platform",
+    slug: "foot-pressure",
     img: productPressure,
-    title: "Foot Pressure Platform",
+    title: "Foot Pressure",
     category: "Analysis",
-    desc: "Dynamic and static plantar pressure measurement platform with 4,096 sensors. Real-time pressure distribution mapping and gait cycle analysis.",
+    desc: "At Unityware Solutions, we specialize in designing advanced sensor-based solutions for medical diagnostics and gait analysis. The Foot Pressure Scanner is a cutting-edge device developed to provide high-resolution plantar pressure mapping, real-time data visualization, and intelligent analysis—all in a seamless, user-friendly system.",
     specs: ["Sensors: 4,096", "Sampling Rate: 300Hz", "Platform: 580×420mm"],
     features: [
       "4,096 high-sensitivity capacitive sensors",
@@ -75,7 +75,7 @@ export const products: Product[] = [
     img: productBodyScanner,
     title: "3D Body Scanner",
     category: "Scanning",
-    desc: "Full-body 3D scanning solution for posture assessment, body composition analysis, and size tracking over time.",
+    desc: "At Unityware Solutions, we specialize in designing and developing high-precision hardware and integrated software solutions. We developed the 3D Body Analyzer for Futuru, a Canadian startup, showcasing our expertise in sensor technology, mechanical design, and software integration. Futuru has now brought this product to market and begun commercial sales.",
     specs: ["Scan Time: 8 seconds", "360° Coverage", "Body Composition Analysis"],
     features: [
       "Full 360° body capture in 8 seconds",
@@ -89,21 +89,21 @@ export const products: Product[] = [
       "The 3D Body Scanner delivers a complete digital twin of the human body in just 8 seconds. Designed for rehabilitation centers, sports clinics, and wellness facilities, it extracts hundreds of body measurements automatically and provides posture deviation analysis with intuitive visual overlays. Longitudinal tracking enables clinicians and trainers to monitor patient progress over time, making it an invaluable tool for treatment planning and outcome measurement.",
   },
   {
-    slug: "posture-analyzer",
-    img: productPosture,
-    title: "Posture Analyzer",
-    category: "Analysis",
-    desc: "Advanced skeletal alignment and posture analysis system with automated landmark detection and comprehensive reporting.",
-    specs: ["AI-Powered Detection", "Multi-plane Analysis", "PDF Reports"],
+    slug: "motorized-gate",
+    img: productPosture,  // Replace with your actual imported image variable, e.g. productMotorizedGate
+    title: "Motorized Gate",
+    category: "Access Control",
+    desc: "High-torque motorized gate system integrated into a 60mm diameter post, designed for seamless compatibility with Tensator’s existing queue management solutions. Delivers reliable, smooth rotation of heavy acrylic panels despite extreme space constraints.",
+    specs: ["High-Torque Motor", "Compact 60mm Integration", "Smooth Acrylic Panel Operation"],
     features: [
-      "AI-driven anatomical landmark detection",
-      "Sagittal, coronal, and transverse plane analysis",
-      "Automated angle and deviation measurements",
-      "Before/after comparison views",
-      "Patient-friendly visual reports",
-      "Cloud-based data storage and retrieval",
+      "High-torque motorized mechanism for heavy loads",
+      "Fully concealed design fits inside 60mm diameter posts",
+      "Seamless integration with Tensator’s post and barrier systems",
+      "Smooth and reliable rotation of heavy acrylic panels",
+      "Engineered for durability in high-traffic environments",
+      "Low-maintenance, space-efficient automation",
     ],
     longDesc:
-      "The Posture Analyzer uses advanced AI to automatically detect anatomical landmarks and assess skeletal alignment across all three anatomical planes. Clinicians receive detailed measurements of angular deviations, asymmetries, and postural imbalances — all presented in clear, patient-friendly visual reports. The before/after comparison feature makes it easy to demonstrate treatment progress, while cloud-based storage ensures patient records are always accessible and secure.",
-  },
+      "At Unityware Solutions, we developed a high-torque motorized gate system that fits inside a 60mm diameter post, ensuring seamless integration with Tensator’s existing design. Despite significant space constraints, our engineering delivers the necessary power to rotate a heavy acrylic panel smoothly and reliably. This solution enhances access control and queue management by providing automated, efficient operation while maintaining a clean, unobtrusive aesthetic compatible with Tensator’s standards.",
+},
 ];
