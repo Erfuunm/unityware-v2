@@ -61,7 +61,7 @@ const Index = () => {
       {/* Features */}
       <section className="py-24 bg-background">
         <div className="container">
-          <SectionHeading title="Why Choose UnityWare?" subtitle="We provide end-to-end solutions for foot health professionals worldwide." />
+          <SectionHeading title="Why Choose Unityware Solutions?" subtitle="We provide end-to-end solutions for foot health professionals worldwide." />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((f, i) => (
               <motion.div

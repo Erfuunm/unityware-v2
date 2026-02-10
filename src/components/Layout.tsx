@@ -95,7 +95,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <footer className="gradient-hero text-primary-foreground">
         <div className="container py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="font-heading text-2xl font-bold mb-4">UnityWare</h3>
+            <h3 className="font-heading text-2xl font-bold mb-4">Unityware Solutions</h3>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
               Leading provider of advanced foot health technology, including 3D scanners,
               medical insole printers, and posture analysis systems.
@@ -123,7 +123,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         </div>
         <div className="border-t border-primary-foreground/10">
           <div className="container py-6 text-center text-sm text-primary-foreground/50">
-            © 2026 UnityWare. All rights reserved.
+            © 2026 Unityware Solutions. All rights reserved.
           </div>
         </div>
       </footer>

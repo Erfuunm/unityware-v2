@@ -26,7 +26,7 @@ const About = () => (
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-heading font-bold text-primary-foreground mb-4"
         >
-          About UnityWare
+          About Unityware Solutions
         </motion.h1>
         <p className="text-primary-foreground/70 max-w-xl">
           Pioneering foot health technology since 2010. Our mission is to empower healthcare professionals with the most advanced tools.
@@ -53,7 +53,7 @@ const About = () => (
           >
             <h2 className="text-3xl font-heading font-bold text-foreground mb-6">Our Story</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Founded in 2010, UnityWare began with a simple vision: to make advanced foot health diagnostics
+              Founded in 2010, Unityware Solutions began with a simple vision: to make advanced foot health diagnostics
               accessible to every clinic. Starting from a small lab, our team of engineers and medical professionals
               developed the first generation of affordable 3D foot scanners.
             </p>

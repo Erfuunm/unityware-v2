@@ -24,7 +24,7 @@ const Representation = () => (
           Apply for Representation
         </motion.h1>
         <p className="text-primary-foreground/70 max-w-xl">
-          Become a UnityWare representative and bring cutting-edge foot health technology to your region.
+          Become a Unityware Solutions representative and bring cutting-edge foot health technology to your region.
         </p>
       </div>
     </section>
@@ -68,7 +68,7 @@ const Representation = () => (
             <Input placeholder="City" defaultValue="Tehran" />
           </div>
           <Textarea placeholder="Company Background & Experience" rows={4} defaultValue="We have been distributing medical equipment in Iran for 8 years, with a network of 120+ clinics and hospitals. Our focus is on podiatric and orthopedic devices." />
-          <Textarea placeholder="Why do you want to represent UnityWare?" rows={3} defaultValue="UnityWare's product line aligns perfectly with our existing client base. We see strong demand for 3D foot scanning and custom insole solutions in our market." />
+          <Textarea placeholder="Why do you want to represent Unityware Solutions?" rows={3} defaultValue="Unityware Solution's product line aligns perfectly with our existing client base. We see strong demand for 3D foot scanning and custom insole solutions in our market." />
           <Button type="submit" size="lg" className="w-full gradient-primary text-primary-foreground font-semibold">
             Submit Application
           </Button>
