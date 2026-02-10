@@ -16,6 +16,25 @@ export interface Product {
 }
 
 export const products: Product[] = [
+
+   {
+    slug: "foot-pressure",
+    img: productPressure,
+    title: "Foot Pressure",
+    category: "Analysis",
+    desc: "At Unityware Solutions, we specialize in designing advanced sensor-based solutions for medical diagnostics and gait analysis. The Foot Pressure Scanner is a cutting-edge device developed to provide high-resolution plantar pressure mapping, real-time data visualization, and intelligent analysis—all in a seamless, user-friendly system.",
+    specs: ["Sensors: 4,096", "Sampling Rate: 300Hz", "Platform: 580×420mm"],
+    features: [
+      "4,096 high-sensitivity capacitive sensors",
+      "Static and dynamic pressure measurement modes",
+      "Real-time color-mapped pressure visualization",
+      "Automated gait cycle detection and analysis",
+      "Center of pressure (COP) trajectory tracking",
+      "Comprehensive PDF and CSV report generation",
+    ],
+    longDesc:
+      "The Foot Pressure Platform provides clinicians with detailed insight into plantar pressure distribution during both static standing and dynamic gait. With 4,096 capacitive sensors sampling at 300Hz, it captures nuanced pressure patterns that reveal biomechanical imbalances, diabetic neuropathy risk areas, and orthotic efficacy. The accompanying software provides real-time color-mapped visualizations, automated gait cycle analysis, and center-of-pressure tracking — all exportable as clinical-grade reports.",
+  },
   {
     slug: "3d-foot-scanner",
     img: productScanner,
@@ -52,24 +71,7 @@ export const products: Product[] = [
     longDesc:
       "Our Insole 3D Printer transforms digital foot scans into custom orthopedic insoles with medical-grade precision. Designed exclusively for the orthotics industry, it supports a range of flexible and semi-rigid materials including TPU, EVA, and specialized nylon blends. The generous build volume allows production of multiple insoles in a single print run, dramatically reducing turnaround time. With automated calibration, built-in material conditioning, and network connectivity, it integrates seamlessly into modern clinical workflows.",
   },
-  {
-    slug: "foot-pressure",
-    img: productPressure,
-    title: "Foot Pressure",
-    category: "Analysis",
-    desc: "At Unityware Solutions, we specialize in designing advanced sensor-based solutions for medical diagnostics and gait analysis. The Foot Pressure Scanner is a cutting-edge device developed to provide high-resolution plantar pressure mapping, real-time data visualization, and intelligent analysis—all in a seamless, user-friendly system.",
-    specs: ["Sensors: 4,096", "Sampling Rate: 300Hz", "Platform: 580×420mm"],
-    features: [
-      "4,096 high-sensitivity capacitive sensors",
-      "Static and dynamic pressure measurement modes",
-      "Real-time color-mapped pressure visualization",
-      "Automated gait cycle detection and analysis",
-      "Center of pressure (COP) trajectory tracking",
-      "Comprehensive PDF and CSV report generation",
-    ],
-    longDesc:
-      "The Foot Pressure Platform provides clinicians with detailed insight into plantar pressure distribution during both static standing and dynamic gait. With 4,096 capacitive sensors sampling at 300Hz, it captures nuanced pressure patterns that reveal biomechanical imbalances, diabetic neuropathy risk areas, and orthotic efficacy. The accompanying software provides real-time color-mapped visualizations, automated gait cycle analysis, and center-of-pressure tracking — all exportable as clinical-grade reports.",
-  },
+ 
   {
     slug: "3d-body-scanner",
     img: productBodyScanner,
@@ -88,22 +90,23 @@ export const products: Product[] = [
     longDesc:
       "The 3D Body Scanner delivers a complete digital twin of the human body in just 8 seconds. Designed for rehabilitation centers, sports clinics, and wellness facilities, it extracts hundreds of body measurements automatically and provides posture deviation analysis with intuitive visual overlays. Longitudinal tracking enables clinicians and trainers to monitor patient progress over time, making it an invaluable tool for treatment planning and outcome measurement.",
   },
-  {
-    slug: "motorized-gate",
-    img: productPosture,  // Replace with your actual imported image variable, e.g. productMotorizedGate
-    title: "Motorized Gate",
-    category: "Access Control",
-    desc: "High-torque motorized gate system integrated into a 60mm diameter post, designed for seamless compatibility with Tensator’s existing queue management solutions. Delivers reliable, smooth rotation of heavy acrylic panels despite extreme space constraints.",
-    specs: ["High-Torque Motor", "Compact 60mm Integration", "Smooth Acrylic Panel Operation"],
+ {
+    slug: "posture-analyzer",
+    img: productPosture,  // Replace with your actual imported image variable, e.g. productPostureAnalyzer
+    title: "Posture Analyzer",
+    category: "Health & Wellness",
+    desc: "State-of-the-art posture analysis system designed to assess and improve physical alignment, with advanced scanning and real-time feedback. Seamlessly integrates into various health and fitness environments for accurate, personalized evaluations.",
+    specs: ["Advanced Posture Scanning", "Real-Time Feedback", "User-Friendly Interface"],
     features: [
-      "High-torque motorized mechanism for heavy loads",
-      "Fully concealed design fits inside 60mm diameter posts",
-      "Seamless integration with Tensator’s post and barrier systems",
-      "Smooth and reliable rotation of heavy acrylic panels",
-      "Engineered for durability in high-traffic environments",
-      "Low-maintenance, space-efficient automation",
+      "Accurate posture analysis using cutting-edge scanning technology",
+      "Real-time feedback for instant posture correction suggestions",
+      "User-friendly interface for easy access and interaction",
+      "Seamlessly integrates with health and wellness systems",
+      "Durable and space-efficient design for clinical environments",
+      "Low-maintenance, high-performance automation"
     ],
     longDesc:
-      "At Unityware Solutions, we developed a high-torque motorized gate system that fits inside a 60mm diameter post, ensuring seamless integration with Tensator’s existing design. Despite significant space constraints, our engineering delivers the necessary power to rotate a heavy acrylic panel smoothly and reliably. This solution enhances access control and queue management by providing automated, efficient operation while maintaining a clean, unobtrusive aesthetic compatible with Tensator’s standards.",
-},
+      "At Unityware Solutions, we developed an advanced posture analyzer that provides precise, real-time analysis of a person's physical alignment. This system is engineered for easy integration into clinical, fitness, and wellness environments. With advanced scanning technology and user-friendly feedback, it delivers accurate assessments of posture to help improve overall health. Designed for durability and minimal maintenance, the Posture Analyzer system enhances performance and provides essential insights for improving posture."
+}
+
 ];

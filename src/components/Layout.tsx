@@ -24,7 +24,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <div className="container flex items-center justify-between py-2 text-primary-foreground text-sm">
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1"><Phone className="w-3 h-3" /> +1 (555) 123-4567</span>
-            <span className="hidden sm:flex items-center gap-1"><Mail className="w-3 h-3" /> info@UnityWare.com</span>
+            <span className="hidden sm:flex items-center gap-1"><Mail className="w-3 h-3" />sajad.rahmanpour@unitywaresolutions.com</span>
           </div>
           <span className="hidden md:block">Advanced Foot Health Technology Solutions</span>
         </div>
@@ -117,7 +117,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <p>123 Medical Innovation Blvd</p>
               <p>San Francisco, CA 94102</p>
               <p>+1 (555) 123-4567</p>
-              <p>info@UnityWare.com</p>
+              <p>sajad.rahmanpour@unitywaresolutions.com</p>
             </div>
           </div>
         </div>
