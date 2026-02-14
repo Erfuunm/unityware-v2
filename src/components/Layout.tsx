@@ -10,7 +10,7 @@ const navItems = [
   { label: "Organizational Purchase", path: "/organizational-purchase" },
   { label: "About Us", path: "/about" },
   { label: "Contact Us", path: "/contact" },
-  { label: "Representation", path: "/representation" },
+  
 ];
 
 const Layout = ({ children }: { children: React.ReactNode }) => {

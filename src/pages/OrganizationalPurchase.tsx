@@ -14,10 +14,9 @@ const benefits = [
   { icon: Headphones, title: "Priority Support", desc: "24/7 technical support with guaranteed response times." },
 ];
 
-// ← Use the SAME credentials as your other forms (or create a dedicated template)
-const SERVICE_ID    = "service_xxxxxxxx";     // your service ID
-const TEMPLATE_ID   = "template_zzzzzzzz";    // ← preferably a new template for organizational requests
-const PUBLIC_KEY    = "user_xxxxxxxxxxxxxxxxxxxxxx";
+const SERVICE_ID    = "service_7c2rtf1";     // ← your service ID
+const TEMPLATE_ID   = "template_b1hzdyu";    // ← NEW or existing template for representation applications
+const PUBLIC_KEY    = "2XtcUHMCwFPdBEW8k";
 
 const OrganizationalPurchase = () => {
   const [formData, setFormData] = useState({
