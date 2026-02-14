@@ -7,9 +7,9 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import emailjs from "@emailjs/browser";
 
 const contactInfo = [
-  { icon: MapPin, title: "Address", detail: "123 Medical Innovation Blvd, San Francisco, CA 94102" },
+  { icon: MapPin, title: "Address", detail: " 51 Clarendon Rd, Watford WD17 1HP , UK" },
   { icon: Phone, title: "Phone", detail: "+1 (555) 123-4567" },
-  { icon: Mail, title: "Email", detail: "info@UnityWare.com" },
+  { icon: Mail, title: "Email", detail: "sajad.rahmanpour@unitywaresolutions.com" },
   { icon: Clock, title: "Working Hours", detail: "Mon–Fri: 8:00 AM – 6:00 PM" },
 ];
 
@@ -49,7 +49,7 @@ const Contact = () => {
         email: formData.email,
         subject: formData.subject,
         message: formData.message,
-        // optional: reply_to: formData.email,
+        
       };
 
       await emailjs.send(

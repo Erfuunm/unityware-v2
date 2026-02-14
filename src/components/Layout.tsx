@@ -113,8 +113,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           <div>
             <h4 className="font-heading font-semibold mb-4">Contact Info</h4>
             <div className="flex flex-col gap-2 text-sm text-primary-foreground/70">
-              <p>123 Medical Innovation Blvd</p>
-              <p>San Francisco, CA 94102</p>
+              <p>51 Clarendon Rd, Watford WD17 1HP</p>
+              <p>UK</p>
               <p>+1 (555) 123-4567</p>
               <p>sajad.rahmanpour@unitywaresolutions.com</p>
             </div>
