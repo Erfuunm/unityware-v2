@@ -34,7 +34,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <header className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b">
         <div className="container flex items-center justify-between h-16">
           <Link to="/" className="font-heading text-2xl font-bold text-gradient">Unityware Solutions</Link>
-
           <nav className="hidden lg:flex items-center gap-1">
             {navItems.map((item) => (
               <Link
