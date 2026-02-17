@@ -167,10 +167,50 @@ const About = () => (
             we pride ourselves on solving hard problems quickly and delivering production-ready results.
           </motion.p>
 
-  <div className="mt-12">
+  <div className="mt-20">
   <TeamCarousel items={teamMembers} autoplay />
 </div>
         </section>
+      </div>
+    </section>
+
+        <section className="py-0 pb-14 bg-background">
+      <div className="container ">
+        <div className="flex flex-col lg:flex-row gap-2 items-center mb-20">
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="lg:w-1/2  flex items-end justify-start"
+          >
+            <img src='/SRahmanpour.jpg' alt="UnityWare Team" className="rounded-xl shadow-elevated size-[70%]" />
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="lg:w-1/2 "
+          >
+
+            <p className="text-muted-foreground text-4xl leading-relaxed mb-4">
+Bringing ideas to life shouldn’t feel like a struggle. We make the R&D journey smooth, quick, and genuinely exciting — like having a co-founder who’s already done this a hundred times
+
+
+            </p>
+
+                        <h2 className="text-xl font-heading font-bold text-foreground ">Sajad Rahmanpour
+</h2>
+                        <h2 className="text-base font-heading font-bold text-foreground mb-6">Founder
+</h2>
+
+
+     
+          </motion.div>
+        </div>
+
+
+  
       </div>
     </section>
 

@@ -73,11 +73,11 @@ export default function TeamCarousel({
                 sm:flex-[0_0_65%]
                 md:flex-[0_0_50%]
                 lg:flex-[0_0_38%]
-                xl:flex-[0_0_33%]
+                xl:flex-[0_0_20%]
               "
             >
               <div className="bg-card border border-border rounded-xl shadow-card overflow-hidden">
-                <div className="h-[600px] w-full overflow-hidden">
+                <div className="h-[500px] w- overflow-hidden">
                   <img
                     src={m.photo}
                     alt={m.name}
