@@ -13,6 +13,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Representation from "./pages/Representation";
 import NotFound from "./pages/NotFound";
+import ArticleDetail from "./pages/ArticleDetail";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +29,7 @@ const App = () => (
             <Route path="/products" element={<Products />} />
             <Route path="/products/:slug" element={<ProductDetail />} />
             <Route path="/academy" element={<Academy />} />
+             <Route path="/academy/:slug" element={<ArticleDetail />} />
             <Route path="/organizational-purchase" element={<OrganizationalPurchase />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
