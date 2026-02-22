@@ -1,18 +1,7 @@
 import { motion } from "framer-motion";
 import { Calendar, User, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-
-const articles = [
-  {
-    slug: "advantages-of-body-scan-with-3d-technology",
-    title: "The Advantages of Body Scan with 3D Technology",
-    excerpt:
-      "Discover how 3D body scanning provides precise measurements, supports performance tracking, helps injury prevention, and improves overall well-being through objective insights.",
-    author: "PT 3Dfit Team",
-    date: "Jan 15, 2026",
-    category: "Articles",
-  },
-];
+import { ARTICLES } from "@/data/articles";
 
 const Academy = () => (
   <div>
@@ -26,7 +15,7 @@ const Academy = () => (
           Academy
         </motion.h1>
         <p className="text-primary-foreground/70 max-w-xl">
-          Stay informed with the latest insights and technological advancements in health, fitness, and performance.
+          Stay informed with the latest research, clinical insights, and technological advancements.
         </p>
       </div>
     </section>
@@ -34,16 +23,25 @@ const Academy = () => (
     <section className="py-24 bg-background">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {articles.map((a, i) => (
+          {ARTICLES.map((a, i) => (
             <motion.article
               key={a.slug}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
+              transition={{ delay: i * 0.08 }}
               className="bg-card rounded-xl overflow-hidden shadow-card hover:shadow-elevated transition-shadow group"
             >
               <div className="h-2 gradient-primary" />
+              <div className="relative">
+  <img
+    src={a.coverImage}
+    alt={a.coverImageAlt || a.title}
+    className="w-full h-80 object-cover"
+    loading="lazy"
+  />
+  <div className="absolute inset-0 bg-black/10" />
+</div>
               <div className="p-6">
                 <span className="text-secondary text-xs font-semibold uppercase tracking-wider">
                   {a.category}
