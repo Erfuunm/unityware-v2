@@ -107,7 +107,7 @@ coverImageAlt: "3D body scan",
     slug: "foot-pressure-scan-best-type-of-foot-scan",
     label: "ARTICLES",
     title: "Foot Pressure Scan | Best Type of Foot Scan",
-    author: "Payatek Team",
+    author: "Unityware Solutions Team",
     date: "Jan 16, 2026",
     category: "Articles",
 
@@ -123,7 +123,7 @@ coverImageAlt: "3D body scan",
       <>
         The contents and facilities in this article are described according to the facilities available in{" "}
         <a className="text-secondary underline" href="#" onClick={(e) => e.preventDefault()}>
-          Payatek’s PT-SCAN foot pressure scanner
+          Unityware Solutions’s PT-SCAN foot pressure scanner
         </a>
         .
       </>,
@@ -231,7 +231,7 @@ coverImageAlt: "3D body scan",
   slug: "foot-scanner-types",
   label: "ARTICLES",
   title: "Foot Scanner Types",
-  author: "Payatek Team",
+  author: "Unityware Solutions Team",
   date: "Jan 17, 2026",
   category: "Articles",
 
